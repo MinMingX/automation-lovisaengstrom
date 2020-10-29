@@ -14,9 +14,7 @@ describe('Test of test hotel', function () {
         cy.get(':nth-child(3) > input').type('1')
         cy.get('.checkbox').click()
         cy.get(':nth-child(5) > input').type('300')
-        //cy.get('[value="ensuite"]').click()
-        //cy.get('body').type('{ctrl}', { release: false })
-        //cy.get('[value="penthouse"]').click()
+
         cy.get(':nth-child(6) > select').select('Balcony')
         cy.get('.blue').click()
         cy.get('.user > .btn').click()

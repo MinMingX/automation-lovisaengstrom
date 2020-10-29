@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-29T09:52:00.395Z",
+    "end": "2020-10-29T09:52:15.357Z",
+    "duration": 14962,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "85be4029-a93b-46d5-b91b-a79f63dbdf06",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\Test-page-objects.spec.js",
+      "file": "cypress\\integration\\examples\\Test-page-objects.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "34481f42-73e0-4f8b-b58e-7a89905f571b",
+          "title": "Test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login, logout",
+              "fullTitle": "Test suite login, logout",
+              "timedOut": null,
+              "duration": 2253,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexfuncs.performValidLogin(cy, targets.username, targets.password, 'Tester Hotel Overview');\ndashboardfuncs.ClickLogout(cy);",
+              "err": {},
+              "uuid": "7c42e6b1-0fdd-448c-b98c-a3e98e53a759",
+              "parentUUID": "34481f42-73e0-4f8b-b58e-7a89905f571b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create room",
+              "fullTitle": "Test suite create room",
+              "timedOut": null,
+              "duration": 3171,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexfuncs.performValidLogin(cy, targets.username, targets.password, 'Tester Hotel Overview');\ndashboardfuncs.ClickViewRooms(cy);\nroomfuncs.ClickCreateRoom(cy);\ncreatefuncs.CreateRoom(cy);\ndashboardfuncs.ClickLogout(cy);",
+              "err": {},
+              "uuid": "e8a3307c-003c-467e-b443-66d200961fb6",
+              "parentUUID": "34481f42-73e0-4f8b-b58e-7a89905f571b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "check room",
+              "fullTitle": "Test suite check room",
+              "timedOut": null,
+              "duration": 1697,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexfuncs.performValidLogin(cy, targets.username, targets.password, 'Tester Hotel Overview');\ndashboardfuncs.ClickViewRooms(cy, 'Rooms');\ndashboardfuncs.ClickLogout(cy);",
+              "err": {},
+              "uuid": "cb8efc19-08f9-4fc5-a243-f9fb16fc3548",
+              "parentUUID": "34481f42-73e0-4f8b-b58e-7a89905f571b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "check client",
+              "fullTitle": "Test suite check client",
+              "timedOut": null,
+              "duration": 1936,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexfuncs.performValidLogin(cy, targets.username, targets.password, 'Tester Hotel Overview');\ndashboardfuncs.ClickViewClient(cy);\nclientfuncs.CheckTitleOfClient(cy, 'Clients');\ndashboardfuncs.ClickLogout(cy);",
+              "err": {},
+              "uuid": "eab3a9b5-d7a8-4799-84cf-67197ab245ca",
+              "parentUUID": "34481f42-73e0-4f8b-b58e-7a89905f571b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "check bills",
+              "fullTitle": "Test suite check bills",
+              "timedOut": null,
+              "duration": 1697,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexfuncs.performValidLogin(cy, targets.username, targets.password, 'Tester Hotel Overview');\ndashboardfuncs.ClickViewBills(cy);\nbillsfuncs.CheckTitleOfBills(cy, 'Bills');\ndashboardfuncs.ClickLogout(cy);",
+              "err": {},
+              "uuid": "4852ae20-d9d9-4bbd-a441-df0318a82cc5",
+              "parentUUID": "34481f42-73e0-4f8b-b58e-7a89905f571b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7c42e6b1-0fdd-448c-b98c-a3e98e53a759",
+            "e8a3307c-003c-467e-b443-66d200961fb6",
+            "cb8efc19-08f9-4fc5-a243-f9fb16fc3548",
+            "eab3a9b5-d7a8-4799-84cf-67197ab245ca",
+            "4852ae20-d9d9-4bbd-a441-df0318a82cc5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10754,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
